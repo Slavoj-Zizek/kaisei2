@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_show_leds" id="BUgdm-R|~f7=aep(nY^l" disabled-reasons="pxt_automatic_disabled" x="-157" y="-194"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block><block type="device_forever" id="lc:oOn?jR@CqF5sLq-mK" x="337" y="-193"></block><block type="device_gesture_event" id="Z_?#KZC5eNNAA9=Wd?`:" x="601" y="-191"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="music_playable_play" id="HKJE@)U9c3TncES:#nW4"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="-!EB1wE3,uo[bQ6AI.)C"><value name="melody"><shadow type="melody_editor" id="N9^Bl1DCaUGKd9zhvGq|"><field name="melody">"- - - - - - - - "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="J~/Adc?ag|?Q]/gOkJi^"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></statement></block><block type="pxt-on-start" id="ECMUE52@j_hW{mjE6Jah" x="0" y="0"></block><block type="device_button_event" id="!aAeo}+jTU%nHaE(+^G(" x="329" y="20"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_plot" id="a=nNKopY{3$rBxn5?-3r"><value name="x"><shadow type="math_number_minmax" id="za7Rvt/p.IgqehhM0lDB"><mutation min="0" max="4" label="X" precision="1"></mutation><field name="SLIDER">4</field></shadow><block type="device_get_light_level" id="Wr;MpwGe}_d#5Zw#6S28"></block></value><value name="y"><shadow type="math_number_minmax" id="`S-w:?HRh[)PJC%%gJ=O"><mutation min="0" max="4" label="Y" precision="1"></mutation><field name="SLIDER">100</field></shadow></value><next><block type="device_show_leds" id="OBax$vBzwQjep{]NH:oO"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></statement></block><block type="controls_if" id="4;`%Q`wX5S#K8w}(r^pt" disabled-reasons="pxt_automatic_disabled" x="574" y="609"><value name="IF0"><shadow type="logic_boolean" id="X*+UJz5]ncd;Sbd]3O|@" disabled-reasons="pxt_automatic_disabled"><field name="BOOL">TRUE</field></shadow></value></block></xml>
